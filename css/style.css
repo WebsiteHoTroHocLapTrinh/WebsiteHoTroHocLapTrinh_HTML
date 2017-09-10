@@ -1,0 +1,236 @@
+body {
+	padding-top: 80px;
+	background-color: #E2E2E2;
+}
+.colr{
+	background: #162850;
+	color: white;
+}
+.stylish-input-group .input-group-addon{
+	background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+	border:0;
+	background:transparent;
+}
+.bgimg {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("image/background.jpg");
+}
+.background-center-item {
+	padding: 50px;
+}
+.stylish-input-group1 .input-group-addon{
+	background: #fbfbfb !important; 
+}
+.stylish-input-group1 .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.colortextwhite{
+	color: white;
+}
+.colorfooter{
+	background-color: #162850;
+}
+.colortextfooter{
+	color: #c6c5c5;
+}
+
+.topquestion {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.tabs {
+	padding: 10px;
+}
+.tabs > .nav-tabs > .nav-item > .active {
+	border-top: solid #162850 3px;
+}
+.statistic {
+	padding: 20px 0px 20px 20px;
+}
+.statistic .count-views, .count-answers, .count-votes {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	font-size: 15px;
+	text-align: center;
+	color: #848d95;	
+	padding: 5px;
+}
+.statistic .answered {
+	border: solid  #01A920 1px;
+	font-size: 15px;
+}
+.statistic .answered-accepted {
+	background-color: #01A920;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.summary {
+	padding: 20px 20px 20px 0px;
+}
+.summary .list-tag .tag{
+	margin-top: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	padding: 5px;
+	background-color: #D6F1FF;
+	float: left;
+}
+
+.summary .started {
+	float: right;
+	padding: 5px;
+}
+
+.started .user, .action, .time {
+	display: inline-block;
+	font-size: 13px;
+}
+.started .time {
+	font-weight: bold;
+	
+}
+
+.content {
+	background-color: #E2E2E2;
+}
+.main-content {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	right: 20px;
+	height: 100%;
+}
+.info-content {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	height: 100%;
+}
+.info-content .btn-question {
+	width: 100%;
+}
+.info-content .count-questions {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-top: solid #162850 8px;
+	padding: 10px 20px;
+}
+.count-questions .stats-container {
+	padding: 10px 5px;
+}
+.stats-container .stats {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+}
+
+.info-content .rank-reputation {
+	border: solid #162850 1px;
+	border-radius: 3px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.rank-reputation .rank-header {
+	padding: 15px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	background: linear-gradient(to right,#34b3a0 0%,purple 100%);
+	color: #fff;
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+	text-align: center;
+}
+.rank-reputation .rank-items {
+	padding: 0 10px;
+}
+.rank-items .item {
+	padding: 5px;
+	margin: 0 -10px;
+	transition: .2s ease-out;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.rank-items .item div {
+	margin-right: 5px;
+}
+.rank-items .item:hover {
+	background-color: #4579EF;
+	color: #FFFFFF;
+}
+.info-content .tag-common {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+}
+.tag-common .tag-common-header {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.tag-common .tag-common-list {
+	margin-top: 10px;
+}
+.tag-common-list .tag-item {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.btn-tag {
+	color: #1B61FF;
+	background-color: #D6F1FF;
+}
+.form-login{
+	display: block;
+	font-weight: bold;
+}
+.border-login{
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+	width: 30%;
+	border: groove 1px;
+	padding: 20px;
+	margin-left: 35%;
+	margin-bottom: 4%;  
+	
+}
+#text-login{
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	margin: 3%;
+	color: #162850;
+	font-weight: bold;
+	font-size: 40px;
+}
+#dont-acc{
+	text-align: center;
+}
+#border-gg-fb a{
+	display: inline;
+	padding-bottom: 25px;
+	border-bottom: 1px solid gray;
+}
+.policy{
+	display: block;
+	text-align: center;
+	font-style: oblique;
+}
+.form-login-signup{
+	padding: 12px;
+}
