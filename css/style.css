@@ -44,7 +44,24 @@ body {
 .colortextfooter{
 	color: #c6c5c5;
 }
-
+.content {
+	background-color: #E2E2E2;
+}
+.content > .container > .row > .col-lg-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.content > .container > .row > .col-lg-9 {
+	padding-left: 0px;
+}
+.main-content {
+	height: 100%;
+}
+.sub-content {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	height: 100%;
+}
 .topquestion {
 	margin-top: 20px;
 	margin-left: 10px;
@@ -55,10 +72,13 @@ body {
 .tabs > .nav-tabs > .nav-item > .active {
 	border-top: solid #162850 3px;
 }
-.statistic {
-	padding: 20px 0px 20px 20px;
+.question-summary {
+	border-bottom: solid #D6D4D4 1px;
 }
-.statistic .count-views, .count-answers, .count-votes {
+.statistic {
+	padding: 20px 0px 0px 20px;
+}
+.count-views, .count-answers, .count-votes {
 	display: inline-block;
 	margin: 0 5px 0 0;
 	font-size: 15px;
@@ -66,25 +86,34 @@ body {
 	color: #848d95;	
 	padding: 5px;
 }
-.statistic .answered {
+.answered {
 	border: solid  #01A920 1px;
 	font-size: 15px;
 }
-.statistic .answered-accepted {
+.answered-accepted {
 	background-color: #01A920;
 	color: #FFFFFF;
 	font-size: 15px;
 }
 .summary {
-	padding: 20px 20px 20px 0px;
+	padding: 20px 20px 0px 0px;
 }
-.summary .list-tag .tag{
+.summary .summary-title {
+
+}
+.list-tag {
+	
+}
+.tag{
 	margin-top: 5px;
 	margin-right: 5px;
 	display: inline-block;
-	padding: 5px;
-	background-color: #D6F1FF;
+	padding: 3px 8px;
+	background-color: #E0F4FF;
+	color: #4798FD;
 	float: left;
+	border-radius: 2px;
+	font-size: 12px; 
 }
 
 .summary .started {
@@ -100,29 +129,10 @@ body {
 	font-weight: bold;
 	
 }
-
-.content {
-	background-color: #E2E2E2;
+.sub-content .btn-question {
+	
 }
-.content > .container > .row > .col-lg-3 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-.content > .container > .row > .col-lg-9 {
-	padding-left: 0px;
-}
-.main-content {
-	height: 100%;
-}
-.info-content {
-	margin-top: 20px;
-	margin-bottom: 50px;
-	height: 100%;
-}
-.info-content .btn-question {
-	width: 100%;
-}
-.info-content .count-questions {
+.sub-content .count-questions {
 	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 	background-color: white;
 	margin-top: 20px;
@@ -141,7 +151,7 @@ body {
 	margin: auto;
 }
 
-.info-content .rank-reputation {
+.sub-content .rank-reputation {
 	border: solid #162850 1px;
 	border-radius: 3px;
 	background-color: white;
@@ -175,7 +185,7 @@ body {
 	background-color: #4579EF;
 	color: #FFFFFF;
 }
-.info-content .tag-common {
+.sub-content .tag-common {
 	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
 	background-color: white;
 	margin-top: 20px;
@@ -196,8 +206,8 @@ body {
 	display: inline-block;
 }
 .btn-tag {
-	color: #1B61FF;
-	background-color: #D6F1FF;
+	color: #4798FD;
+	background-color: #E0F4FF;
 }
 .form-login{
 	display: block;
@@ -238,8 +248,8 @@ body {
 }
 .content-card {
 	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 10px 20px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 10px 20px;
 }
