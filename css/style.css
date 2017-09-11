@@ -104,12 +104,14 @@ body {
 .content {
 	background-color: #E2E2E2;
 }
+.content > .container > .row > .col-lg-3 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.content > .container > .row > .col-lg-9 {
+	padding-left: 0px;
+}
 .main-content {
-	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-	background-color: white;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	right: 20px;
 	height: 100%;
 }
 .info-content {
@@ -233,4 +235,11 @@ body {
 }
 .form-login-signup{
 	padding: 12px;
+}
+.content-card {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
 }
