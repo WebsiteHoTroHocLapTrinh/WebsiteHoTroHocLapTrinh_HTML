@@ -234,3 +234,26 @@ body {
 .form-login-signup{
 	padding: 12px;
 }
+.margin-top .col{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.title{
+	font-style: oblique;
+}
+.border-right{
+	border-right: solid gray 1px;
+}
+#info{
+	display: inline;
+}
+.padding-info{
+	padding-bottom: 10px;
+}
+#profile{
+	border-bottom: solid #f0f0f0 1px;
+	margin-bottom: 10%
+}
+.text-align-justify{
+	text-align: justify;
+}
