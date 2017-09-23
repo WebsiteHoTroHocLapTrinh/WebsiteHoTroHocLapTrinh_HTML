@@ -102,6 +102,9 @@ body {
 .summary .summary-title {
 
 }
+.summary .summary-description {
+
+}
 .list-tag {
 	
 }
@@ -135,7 +138,8 @@ body {
 	
 }
 .sub-content .btn-question {
-	
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 .sub-content .count-questions {
 	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -258,6 +262,9 @@ body {
 	margin-bottom: 50px;
 	padding: 10px 20px;
 }
+.content-list {
+	padding: 10px;
+}
 .question-info {
 
 }
@@ -289,7 +296,7 @@ body {
 	border-radius: 5px;
 	height: 100%;
 }
-.non-answered {
+.non-answered-accepted {
 	border: solid #B5B5B5 1px;
 }
 .detail-left {
@@ -329,6 +336,9 @@ body {
 .list-comment > .comment > .row > .col-lg-11 {
 	padding-left: 0px;
 }
+.list-comment .comment .comment-detail-right {
+	margin-left: 10px;
+}
 .form-comment {
 	/*display: none;*/
 }
@@ -340,6 +350,132 @@ body {
 	margin: 10px 0px;
 	font-size: 18px;
 }
+.sub-content .btn-documentation {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.documentation-summary {
+	border-bottom: solid #D6D4D4 1px;
+}
+.documentation-favorite {
+	background-color: #01A920;
+	border-radius: 3px;
+	margin: 0 5px 5px 0;
+	padding: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+}
+.documentation-count-views {
+	margin: 0 5px 0px 0;
+	font-size: 15px;
+	text-align: center;
+	padding: 5px;
+	border: solid  #01A920 1px;
+}
+.documentation-related .related-header {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.documentation-related .related-content {
+
+}
+.related-content .related-documentation {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.related-documentation .related-documentation-left {
+	text-align: center;
+	border-radius: 5px;
+	height: 100%;
+}
+.related-documentation-left .oi {
+	font-size: 15px;
+	color: #01A920;
+}
+.documentation-author {
+	
+}
+.profile-card {
+	margin: -10px -20px;
+	position: relative;
+}
+.profile-card > .profile-card-header {
+	height: 80px;
+	padding: 20px 20px 0 120px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: #ff21d1 linear-gradient(135deg,#ff7400 0%,#ff21d1 100%);
+	color: #fff;
+}
+.profile-card > .profile-card-header > .profile-card-tilte {
+	font-size: 18px;
+	height: 20px;
+	font-weight: 500;
+	margin: 0;
+	overflow: hidden;
+	color: #fff;
+}
+.profile-card > .profile-card-header > .profile-card-separator {
+	background: #ffe345;
+	height: 1px;
+	margin: 5px 0;
+}
+.profile-card > .profile-card-header > .profile-card-description {
+	height: 20px;
+	overflow: hidden;
+}
+.profile-card > .profile-card-footer {
+	height: 45px;
+	padding: 10px 0 0 120px;
+	font-size: 20px;
+}
+.profile-card > .profile-card-footer > .oi {
+	color: orange;
+}
+.profile-card > .profile-card-avatar {
+	position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.legend-hr-text {
+	text-align: center;
+    margin: 0;
+    clear: both;
+    color: #6a737c;
+    font-variant: small-caps;
+    font-weight: 500;
+    font-size: 15px;
+}
+.legend-hr-text > .legend-hr {
+	margin: 0;
+    position: relative;
+    top: 22px;
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.legend-hr-text > .legend-text {
+	display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.documentation-favorite-point {
+	font-size: 20px;
+	text-align: center;
+}
+.documentation-favorite-point > .oi {
+	font-size: 30px;
+	text-align: center;
+	color: #01A920;
+}
+.documentation-title {
+	font-size: 40px;
+}
+/*Dinh Sa*/
 .margin-top .col{
 	margin-top: 5%;
 	margin-bottom: 10%;
