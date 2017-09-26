@@ -19,7 +19,6 @@
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 </head>
 <!--body-->
 
@@ -29,8 +28,8 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
             <!--brand-->
             <a class="navbar-brand" href="">
-                <img class="img-responsive mr-sm-5" src="image/elearning-logo.png" width="150" height="50" alt=" ">
-            </a>
+				<img class="img-responsive mr-sm-5" src="image/elearning-logo.png" width="150" height="50" alt=" ">
+			</a>
             <!--/brand-->
             <!--button-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,109 +61,108 @@
                 <div class="input-group stylish-input-group mr-sm-5">
                     <input type="text" class="form-control" placeholder="Search">
                     <span class="input-group-addon">
-                        <button type="submit">
-                            <span class="oi oi-magnifying-glass"></span>
+						<button type="submit">
+							<span class="oi oi-magnifying-glass"></span>
                     </button>
                     </span>
                 </div>
                 <!--/search box-->
                 <!--login signup-->
-                <button type="button" class="btn mr-3">Log In</button>
-                <button class="btn colr"> Sign Up</button>
+                <button type="button" class="btn mr-3" onclick="window.location.href='login.html?id=1'">Log In</button>
+                <button class="btn colr" onclick="window.location.href='register.html?'"> Sign Up</button>
                 <!--/login signup-->
             </div>
             <!--/nav-->
         </nav>
     </div>
     <!--/navbar-->
-    <!--profile-->
-    <div class="container content-card" style="background-color: #FFFFFF;">
-        <!--edit profile-->
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="edit-avatar">
-                    <div class="edit-body">
-                        <div class="edit-title">
-                            Edit Photo
-                        </div>
-                        <div class="photo">
-                            <img src="image/avata.png" alt="" class="rounded-circle">
-                        </div>
-                        <div class="text">
-                            <span class="text-muted">Profile photo will be changed automatically</span>
-                        </div>
-                        <div class="btn-upload">
-                            <button class="btn btn-primary button-upload">
-                                <label for="upload-photo">Upload new photo</label>
-                                <input type="file" name="photo" id="upload-photo" />
-                            </button>
-                        </div>
-                    </div>
-                </div>
+    <!--about-->
+    <div class="about-body">
+        <div class="title-about">
+            <span>Come help us build the education </span>
+            <span>the world deserves</span>
+            <div id="want-join">
+            	<span>Want to join us?</span>
+            	<span><a href="" style="color: red;">Longin</a></span>
             </div>
-            <div class="col-lg-8">
-                <div class="edit-info">
-                    <div class="head-title">
-                        Edit Account
-                    </div>
-                    <div class="title-info">
-                        Personal Information
-                    </div>
-                    <div class="info">
-                        <form action="edit_user_submit" method="get" accept-charset="utf-8">
-                            <div class="form-group">
-                                <label for="Displayname">Tên hiển thị:</label>
-                                <input type="text" class="form-control" id="Displayname" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="title">Title:</label>
-                                <input type="text" class="form-control" id="title" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="local">Vị trí:</label>
-                                <input type="text" class="form-control" id="local" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="job">Nghề nghiệp:</label>
-                                <input type="text" class="form-control" id="job" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="about">About:</label>
-                                <textarea id="about" class="form-control ckeditor"></textarea>
-                            </div>
-                            <div class="btn-save-info">
-                                <button class="btn btn-primary" type="">save</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="title-change-password">
-                        Change Password
-                    </div>
-                    <div class="change-password">
-                        <form action="edit_user_submit" method="get" accept-charset="utf-8">
-                            <div class="form-group">
-                                <label for="old">Old PassWord:</label>
-                                <input type="passwprd" class="form-control" id="old" placeholder="*****">
-                            </div>
-                            <div class="form-group">
-                                <label for="new">New PassWord:</label>
-                                <input type="passwprd" class="form-control" id="new" placeholder="*****">
-                            </div>
-                            <div class="form-group">
-                                <label for="confirm">Confirm PassWord:</label>
-                                <input type="passwprd" class="form-control" id="confirm" placeholder="*****">
-                            </div>
-                            <div class="btn-save-pass">
-                                <button class="btn btn-primary" type="">save</button>
-                            </div>
-                        </form>
-                    </div>
+            
+            
+        </div>
+        <div class="main-about">
+            <div class="row">
+                <div class="col first">
+                    <span class="head">About E-Learning</span>
+                    <span >
+                    	E-Learning is an education company. But not one in the way you might think. We're committed to building the best learning experience inside and out, making Codecademy the best place for our team to learn, teach, and create the online learning experience of the future.
+                    </span>
+                    <span>
+						Education is old. The current public school system in the US dates back to the 19th century and wasn't designed to scale the way it has. Lots of companies are working to "disrupt" education by changing the way things work in the classroom and by bringing the classroom online.
+					</span>
+                </div>
+                <div class="col second">
+                    <span class="head">Our Mission</span>
+                    <span>
+                    	We're not one of those companies. We are rethinking education from the bottom up. The web has rethought nearly everything - commerce, social networking, healthcare, and more. We are building the education the world needs - the first truly net native education. We take more cues from Facebook and Zynga in creating an engaging educational experience than we do from the classroom.
+                    </span>
+                    <span>
+                    	Education is broken. Come help us build the education the world deserves.
+                    </span>
                 </div>
             </div>
         </div>
-        <!--/edit profile-->
+        <div class="our-team">
+        	<div class="title-our-team">
+        		<span>Our team</span>
+        	</div>
+        	<div class="row">
+        		<div class="col">
+        			<div class="image-avt">
+        				<img src="image/avata.png" alt="" class="rounded-circle">
+        			</div>
+        			<div id="name">
+        				Dinh Sa
+        			</div>
+        			<div id="job">
+        				Developers
+        			</div>
+        		</div>
+        		<div class="col">
+        			<div class="image-avt">
+        				<img src="image/k17.jpg" alt="" class="rounded-circle">
+        			</div>
+        			<div id="name">
+        				Thanh Tung
+        			</div>
+        			<div id="job">
+        				Developers
+        			</div>
+        		</div>
+        		<div class="col">
+        			<div class="image-avt">
+        				<img src="image/boss2.jpg" alt="" class="rounded-circle">
+        			</div>
+        			<div id="name">
+        				Kim Giao
+        			</div>
+        			<div id="job">
+        				Boss
+        			</div>
+        		</div>
+        		<div class="col">
+        			<div class="image-avt">
+        				<img src="image/boss1.jpg" alt="" class="rounded-circle">
+        			</div>
+        			<div id="name">
+        				Thanh Dung
+        			</div>
+        			<div id="job">
+        				Boss
+        			</div>
+        		</div>
+        	</div>
+        </div>
     </div>
-    <!--end frofile-->
+    <!--end about-->
 </body>
 <!--end body-->
 <!-- Footer -->
@@ -174,8 +172,8 @@
             <div class="row">
                 <div class="col">
                     <a class="navbar-brand" href="">
-                        <img class="img-responsive mr-sm-5" src="image/logofooter.png" width="150" height="50" alt=" ">
-                    </a>
+						<img class="img-responsive mr-sm-5" src="image/logofooter.png" width="150" height="50" alt=" ">
+					</a>
                 </div>
                 <div class="col">
                     <br>
