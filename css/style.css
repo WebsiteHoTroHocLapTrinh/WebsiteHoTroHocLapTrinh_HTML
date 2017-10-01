@@ -133,7 +133,7 @@ body {
 
 .list-tag {}
 
-.tag {
+.list-tag .tag {
     margin-top: 5px;
     margin-right: 5px;
     display: inline-block;
@@ -145,7 +145,7 @@ body {
     font-size: 12px;
 }
 
-.tag:hover {
+.list-tag .tag:hover {
     background-color: #B4F4FF;
     cursor: pointer;
 }
@@ -609,21 +609,6 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Dinh Sa*/
 
 .margin-top .col {}
@@ -673,6 +658,9 @@ body {
 
 
 
+
+
+
 }
 .style-text {
     font-weight: 500;
@@ -700,6 +688,9 @@ body {
     padding-top: 2%;
     font-size: 21px;
 }
+
+
+
 
 
 
