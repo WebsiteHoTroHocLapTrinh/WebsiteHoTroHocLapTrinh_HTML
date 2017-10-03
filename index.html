@@ -13,8 +13,12 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- Social Buttons CSS -->
+    <link href="bootstrap-social/bootstrap-social.css" rel="stylesheet">
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="font/css/open-iconic-bootstrap.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
@@ -77,1256 +81,175 @@
     </div>
     <!--/navbar-->
     <!--Images-->
-    <div class="container-fluid bgimg">
+    <div class="container-fluid bgimg-index">
         <div class="container">
-            <div class="row">
-                <!--cột trái-->
-                <div class="col background-center-item">
-                    <div class="">
-                        <h2 class="colortextwhite">Learn, Share, Build</h2>
-                        <h5 class="colortextwhite">Each month, over 50 million developers come to E-Learning to learn, share their knowledge, and build their careers.</h5>
-                        <h5 class="colortextwhite">Join the world’s largest developer community.</h5>
-                    </div>
-                </div>
-                <!--/cột trái-->
-                <!--cột phải-->
-                <div class="col background-center-item">
-                    <form action="index_submit" method="get" accept-charset="utf-8">
-                        <div class="input-group form-group stylish-input-group1">
-                            <span class="input-group-addon col-sm-3">Display name</span>
-                            <input type="text" class="form-control" placeholder="Jonh">
-                        </div>
-                        <div class="input-group form-group stylish-input-group1">
-                            <span class="input-group-addon col-sm-3">Email address</span>
-                            <input type="text" class="form-control" placeholder="you@example.com">
-                        </div>
-                        <div class="input-group form-group stylish-input-group1">
-                            <span class="input-group-addon col-sm-3">Password</span>
-                            <input type="text" class="form-control" placeholder="******">
-                        </div>
-                        <div class="input-group">
-                            <div>
-                                <button type="submit" class="btn btn-default colr mr-sm-2">Sign Up</button>
-                            </div>
-                            <div class="col">
-                                <a href="#">
-                                    <font>By registering, you agree to the privacy policy and terms of service.</font>
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div>
-                            <form action="index_submit" method="get" accept-charset="utf-8" class="form-inline">
-                                <a href="http://google.com" target="_blank"> <img src="image/google.png" alt="" width="200px" height="35px"></a>
-                                <a href="http://facebook.com" target="_blank"><img src="image/facebook.png" alt="" width="200px" height="35px"></a>
-                            </form>
-                        </div>
-                    </form>
-                </div>
-                <!--/cột phải-->
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Site!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
             </div>
         </div>
     </div>
     <!--/Images-->
     <!-- Content -->
     <div class="content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9">
-                    <div class="main-content">
-                        <div class="content-card">
-                            <div class="tabs">
-                                <h4 class="topquestion d-inline-block">Tất Cả Câu Hỏi</h4>
-                                <ul class="nav nav-tabs d-flex justify-content-end" id="QuestionsTab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="moinhat-tab" data-toggle="tab" href="#moinhat" role="tab" aria-controls="moinhat" aria-expanded="true">Mới Nhất</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="luotxem-tab" data-toggle="tab" href="#luotxem" role="tab" aria-controls="luotxem">Lượt Xem</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="traloi-tab" data-toggle="tab" href="#traloi" role="tab" aria-controls="traloi">Trả Lời</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="binhchon-tab" data-toggle="tab" href="#binhchon" role="tab" aria-controls="binhchon">Bình Chọn</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content" id="QuestionsTabContent">
-                                    <div class="tab-pane fade show active" id="moinhat" role="tabpanel" aria-labelledby="moinhat-tab">
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summary-title">
-                                                        <div class="summary-title">
-                                                            <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời</div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <nav aria-label="Page navigation question">
-                                            <ul class="pagination justify-content-center" style="margin-top: 20px;">
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Previous">
-														<span aria-hidden="true">&laquo;</span>
-														<span class="sr-only">Previous</span>
-													</a>
-                                                </li>
-                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Next">
-														<span aria-hidden="true">&raquo;</span>
-														<span class="sr-only">Next</span>
-													</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="tab-pane fade" id="luotxem" role="tabpanel" aria-labelledby="luotxem-tab">
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <nav aria-label="Page navigation question">
-                                            <ul class="pagination justify-content-center" style="margin-top: 20px;">
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Previous">
-														<span aria-hidden="true">&laquo;</span>
-														<span class="sr-only">Previous</span>
-													</a>
-                                                </li>
-                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Next">
-														<span aria-hidden="true">&raquo;</span>
-														<span class="sr-only">Next</span>
-													</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="tab-pane fade" id="traloi" role="tabpanel" aria-labelledby="traloi-tab">
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <nav aria-label="Page navigation question">
-                                            <ul class="pagination justify-content-center" style="margin-top: 20px;">
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Previous">
-														<span aria-hidden="true">&laquo;</span>
-														<span class="sr-only">Previous</span>
-													</a>
-                                                </li>
-                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Next">
-														<span aria-hidden="true">&raquo;</span>
-														<span class="sr-only">Next</span>
-													</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="tab-pane fade" id="binhchon" role="tabpanel" aria-labelledby="binhchon-tab">
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="question-summary">
-                                            <div class="row">
-                                                <div class="statistic col-lg-4">
-                                                    <div class="count-views">
-                                                        <span>1</span>
-                                                        <div>lượt xem</div>
-                                                    </div>
-                                                    <div class="count-answers answered-accepted">
-                                                        <span>2</span>
-                                                        <div>câu trả lời
-                                                        </div>
-                                                    </div>
-                                                    <div class="count-votes">
-                                                        <span>3</span>
-                                                        <div>bình chọn</div>
-                                                    </div>
-                                                </div>
-                                                <div class="summary col-lg-8">
-                                                    <div class="summa-title">
-                                                        <h6><a href="">Adding php.exe to my system variables</a></h6>
-                                                    </div>
-                                                    <div class="list-tag">
-                                                        <p class="tag">C#</p>
-                                                        <p class="tag">Android</p>
-                                                        <p class="tag">PHP</p>
-                                                    </div>
-                                                    <div class="started">
-                                                        <p class="user"><a href="">Thanh Tùng</a></p>
-                                                        <p class="action">đã hỏi</p>
-                                                        <p class="time">1 ngày trước</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <nav aria-label="Page navigation question">
-                                            <ul class="pagination justify-content-center" style="margin-top: 20px;">
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Previous">
-														<span aria-hidden="true">&laquo;</span>
-														<span class="sr-only">Previous</span>
-													</a>
-                                                </li>
-                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link" href="#" aria-label="Next">
-														<span aria-hidden="true">&raquo;</span>
-														<span class="sr-only">Next</span>
-													</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
+                <div class="background-search-box">
+                    <div class="search-box d-flex justify-content-center flex-column">
+                        <div class="search-box-title">
+                            <h1>Tìm kiếm thật dễ dàng</h1>
+                            <br>
+                            <div class="hr-title"></div>
+                            <br>
+                            <h4>Chỉ với từ khóa bất kỳ bạn có thể tìm được nội dung mình muốn.</h4>
+                            <h4>Từ câu hỏi, tài liệu, thẻ và cả người dùng.</h4>
+                            <br>
+                        </div>
+                        <br>
+                        <div class="search-box-form">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Nhập bất cứ điều gì bạn nghĩ đến">
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary btn-lg"><span class="oi oi-magnifying-glass"></span> Tìm Kiếm Ngay</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="background-service">
+                    <div class="service">
+                        <div class="service-title">
+                            <h1>Mục Tiêu</h1>
+                            <br>
+                            <div class="hr-title"></div>
+                        </div>
+                        <div class="service-content d-flex justify-content-center">
+                            <div class="service-question d-inline">
+                                <div class="service-icon">
+                                    <i class="fa fa-question-circle"></i>
+                                </div>
+                                <div class="service-icon-title">
+                                    <h4>Đặt Câu Hỏi</h4>
+                                </div>
+                                <div class="service-icon-detail">
+                                    <p>Đưa ra câu hỏi dễ hiễu, dễ hình dung về vấn đề khó khăn đang gặp phải.</p>
+                                </div>
+                            </div>
+                            <div class="service-answer d-inline">
+                                <div class="service-icon">
+                                    <i class="fa fa-reply"></i>
+                                </div>
+                                <div class="service-icon-title">
+                                    <h4>Đưa Ra Trả Lời</h4>
+                                </div>
+                                <div class="service-icon-detail">
+                                    <p>Giúp đỡ mọi người bằng những câu trả lời chính xác và giúp bản thân ôn lại kiến thức</p>
+                                </div>
+                            </div>
+                            <div class="service-documentation d-inline">
+                                <div class="service-icon">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                <div class="service-icon-title">
+                                    <h4>Chia Sẻ Tài Liệu</h4>
+                                </div>
+                                <div class="service-icon-detail">
+                                    <p>Sách là kho tàng trí tuệ của nhân loại. Chia sẻ để cùng phát triển.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="sub-content">
-                        <div class="btn-question">
-                            <button type="button" class="btn btn-success btn-block btn-lg">Đặt câu hỏi ngay !!!</button>
+            </div>
+            <div class="row">
+                <div class="background-team-info">
+                    <div class="team-info">
+                        <div class="team-info-title">
+                            <h1>Nhóm của chúng tôi</h1>
+                            <div class="hr-title"></div>
+                            <p><i>Lorem ipsum dolor sit amet consectetur.</i></p>
+                            <br>
                         </div>
-                        <div class="count-questions">
-                            <div class="stats-container">
-                                <div class="row">
-                                    <div class="stats">
-                                        <span>111</span>
-                                        <div>câu hỏi</div>
-                                    </div>
-                                    <div class="stats">
-                                        <span>222</span>
-                                        <div>câu trả lời</div>
-                                    </div>
-                                    <div class="stats">
-                                        <span>333</span>
-                                        <div>bình luận</div>
-                                    </div>
+                        <div class="team-info-content d-flex justify-content-center">
+                            <div class="partner d-inline">
+                                <img class="partner-avatar rounded-circle" src="image/k17.jpg" width="200">
+                                <br>
+                                <br>
+                                <h4 class="partner-name">Thanh Tùng</h4>
+                                <small class="partner-position"><i>Developer</i></small>
+                                <br>
+                                <br>
+                                <div class="list-social">
+                                    <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="rank-reputation">
-                            <div class="rank-header">
-                                <h4>Bảng xếp hạng</h4>
-                            </div>
-                            <hr>
-                            <div class="rank-items">
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #1
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #2
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #3
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #4
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #5
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #6
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #7
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #8
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #9
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>696</strong>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="d-inline" style="">
-                                        #10
-                                    </div>
-                                    <div class="d-inline">
-                                        <img src="image/k17.jpg" class="rounded-circle" width="30" height="30">
-                                    </div>
-                                    <div class="d-inline">
-                                        Thanh Tùng
-                                    </div>
-                                    <div class="d-inline float-right">
-                                        <strong>6916</strong>
-                                    </div>
+                            <div class="partner d-inline">
+                                <img class="partner-avatar rounded-circle" src="image/avata.png" width="200">
+                                <br>
+                                <br>
+                                <h4 class="partner-name">Thanh Tùng</h4>
+                                <small class="partner-position"><i>Developer</i></small>
+                                <br>
+                                <br>
+                                <div class="list-social">
+                                    <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tag-common">
-                            <div class="tag-common-header">
-                                <p>Tag phổ biến</p>
-                            </div>
-                            <hr>
-                            <div class="tag-common-list">
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        C# <span class="badge badge-pill badge-primary">x696</span>
-                                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="background-contact">
+                    <div class="contact">
+                        <div class="contact-title">
+                            <h1>Liên Hệ</h1>
+                            <div class="hr-title"></div>
+                            <p><i>Lorem ipsum dolor sit amet consectetur.</i></p>
+                            <br>
+                        </div>
+                        <div class="contact-content">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="contact-form">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Tên của bạn *" name="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Email của bạn *" name="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Số điện thoại của bạn *" name="">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control form-control-lg" placeholder="Nội dung *" rows="3"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-success btn-lg">Gửi</button>
+                                        </form>
+                                    </div>
                                 </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        C++ <span class="badge badge-pill badge-primary">x696</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        Android <span class="badge badge-pill badge-primary">x555</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
-                                </div>
-                                <div class="tag-item">
-                                    <button class="btn btn-tag">
-                                        PHP <span class="badge badge-pill badge-primary">3</span>
-                                    </button>
+                                <div class="col">
+                                    <div class="contact-info">
+                                        <h4>Thông Tin Liên Hệ</h4>
+                                        <hr style="background-color: orange;">
+                                        <h6><a style="color: #FF7038; cursor: pointer;" href=""><i class="fa fa-envelope-o fa-fw"></i>	nguyenhoangthanhtung1610@gmail.com</a></h6>
+                                        <br>
+                                        <p><i class="fa fa-user fa-fw"></i> <strong>Nguyễn Hoàng Thanh Tùng</strong></p>
+                                        <p><i class="fa fa-phone fa-fw"></i> SĐT: (+84) 96 195 0070</p>
+                                        <p><i class="fa fa-user fa-fw"></i> <strong>Đinh Vĩnh Phúc</strong></p>
+                                        <p><i class="fa fa-phone fa-fw"></i> SĐT: (+84) 166 680 7064</p>
+                                    </div>
                                 </div>
                             </div>
-                            <a href="">Xem thêm ...</a>
                         </div>
                     </div>
                 </div>

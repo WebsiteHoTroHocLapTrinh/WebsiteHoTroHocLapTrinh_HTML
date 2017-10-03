@@ -3,6 +3,10 @@ body {
     background-color: #E2E2E2;
 }
 
+button {
+    cursor: pointer;
+}
+
 .colr {
     background: #162850;
     color: white;
