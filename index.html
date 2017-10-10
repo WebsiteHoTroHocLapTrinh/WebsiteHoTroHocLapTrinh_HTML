@@ -20,9 +20,11 @@
     <link rel="stylesheet" type="text/css" href="font/css/open-iconic-bootstrap.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- JS -->
-    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/arrow34.js"></script>
+    <script type="text/javascript" src="js/scrollreveal.min.js"></script>
 </head>
 <!--body-->
 
@@ -32,8 +34,8 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFFFF;">
             <!--brand-->
             <a class="navbar-brand" href="">
-				<img class="img-responsive mr-sm-5" src="image/elearning-logo.png" width="150" height="50" alt=" ">
-			</a>
+                <img class="img-responsive mr-sm-5" src="image/elearning-logo.png" width="150" height="50" alt=" ">
+            </a>
             <!--/brand-->
             <!--button-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,8 +67,8 @@
                 <div class="input-group stylish-input-group mr-sm-5">
                     <input type="text" class="form-control" placeholder="Search">
                     <span class="input-group-addon">
-						<button type="submit">
-							<span class="oi oi-magnifying-glass"></span>
+                      <button type="submit">
+                       <span class="oi oi-magnifying-glass"></span>
                     </button>
                     </span>
                 </div>
@@ -241,7 +243,7 @@
                                     <div class="contact-info">
                                         <h4>Thông Tin Liên Hệ</h4>
                                         <hr style="background-color: orange;">
-                                        <h6><a style="color: #FF7038; cursor: pointer;" href=""><i class="fa fa-envelope-o fa-fw"></i>	nguyenhoangthanhtung1610@gmail.com</a></h6>
+                                        <h6><a style="color: #FF7038; cursor: pointer;" href=""><i class="fa fa-envelope-o fa-fw"></i>  nguyenhoangthanhtung1610@gmail.com</a></h6>
                                         <br>
                                         <p><i class="fa fa-user fa-fw"></i> <strong>Nguyễn Hoàng Thanh Tùng</strong></p>
                                         <p><i class="fa fa-phone fa-fw"></i> SĐT: (+84) 96 195 0070</p>
@@ -257,6 +259,19 @@
         </div>
     </div>
     <!-- end Content -->
+    <script type="text/javascript">
+    window.sr = ScrollReveal();
+    sr.reveal('.intro-text', { duration: 1000, origin: 'top',});
+    sr.reveal('.search-box-title', { duration: 500, origin: 'left',});
+    sr.reveal('.search-box-form', { duration: 1000, origin: 'bottom',});
+    sr.reveal('.service-title', { duration: 500, origin: 'left',});
+    sr.reveal('.service-question', { duration: 1000, origin: 'bottom',});
+    sr.reveal('.service-answer', { duration: 1500,  origin: 'bottom',});
+    sr.reveal('.service-documentation', { duration: 2000,  origin: 'bottom',});
+    sr.reveal('.team-info-title', { duration: 500,  origin: 'left',});
+    sr.reveal('.partner:nth-child(1)', { duration: 1000,  origin: 'bottom',});
+    sr.reveal('.partner:nth-child(2)', { duration: 2000,  origin: 'bottom',});
+    </script>
 </body>
 <!--end body-->
 <!-- Footer -->
@@ -266,8 +281,8 @@
             <div class="row">
                 <div class="col">
                     <a class="navbar-brand" href="">
-						<img class="img-responsive mr-sm-5" src="image/logofooter.png" width="150" height="50" alt=" ">
-					</a>
+                      <img class="img-responsive mr-sm-5" src="image/logofooter.png" width="150" height="50" alt=" ">
+                  </a>
                 </div>
                 <div class="col">
                     <br>

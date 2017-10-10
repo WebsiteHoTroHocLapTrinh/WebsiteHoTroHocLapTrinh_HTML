@@ -637,14 +637,60 @@
     <script src="js/toggle_switch.js"></script>
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
-    $(document).ready(function() {
-        $('#dataTables-list-question').DataTable({
-            responsive: true
+        $(document).ready(function() {
+            $('#dataTables-list-question').DataTable({
+                "language": {
+                    "decimal":        "",
+                    "emptyTable":     "Không có dữ liệu",
+                    "info":           "Đang hiển thị _START_ đến _END_ trong _TOTAL_ mục",
+                    "infoEmpty":      "Đang hiển thị 0 đến 0 của 0 mục",
+                    "infoFiltered":   "(Đã được lọc từ tổng _MAX_ mục)",
+                    "infoPostFix":    "",
+                    "thousands":      ",",
+                    "lengthMenu":     "Hiển thị _MENU_ mục",
+                    "loadingRecords": "Đang tải...",
+                    "processing":     "Đang xử lý...",
+                    "search":         "Tìm kiếm:",
+                    "zeroRecords":    "Không tìm thấy mục nào",
+                    "paginate": {
+                        "first":      "Đầu",
+                        "last":       "Cuối",
+                        "next":       "Kế",
+                        "previous":   "Trước"
+                    },
+                    "aria": {
+                        "sortAscending":  ": Sắp xếp tăng dần",
+                        "sortDescending": ": Sắp xếp giảm dần"
+                    }
+                }
+            });
+            $('#dataTables-list-comment').DataTable({
+                "language": {
+                    "decimal":        "",
+                    "emptyTable":     "Không có dữ liệu",
+                    "info":           "Đang hiển thị _START_ đến _END_ trong _TOTAL_ mục",
+                    "infoEmpty":      "Đang hiển thị 0 đến 0 của 0 mục",
+                    "infoFiltered":   "(Đã được lọc từ tổng _MAX_ mục)",
+                    "infoPostFix":    "",
+                    "thousands":      ",",
+                    "lengthMenu":     "Hiển thị _MENU_ mục",
+                    "loadingRecords": "Đang tải...",
+                    "processing":     "Đang xử lý...",
+                    "search":         "Tìm kiếm:",
+                    "zeroRecords":    "Không tìm thấy mục nào",
+                    "paginate": {
+                        "first":      "Đầu",
+                        "last":       "Cuối",
+                        "next":       "Kế",
+                        "previous":   "Trước"
+                    },
+                    "aria": {
+                        "sortAscending":  ": Sắp xếp tăng dần",
+                        "sortDescending": ": Sắp xếp giảm dần"
+                    }
+                }
+            });
         });
-        $('#dataTables-list-comment').DataTable({
-            responsive: true
-        });
-    });
     </script>
 </body>
 

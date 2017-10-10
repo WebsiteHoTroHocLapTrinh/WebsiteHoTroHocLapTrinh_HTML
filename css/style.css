@@ -61,7 +61,7 @@ button {
     color: #c6c5c5;
 }
 
-.content {
+.container > .content {
     background-color: #E2E2E2;
 }
 
@@ -399,21 +399,7 @@ button {
     font-size: 18px;
 }
 
-.list-comment>.comment>.row>.col-lg-1 {
-    padding-right: 0px;
-}
 
-.list-comment>.comment>.row>.col-lg-11 {
-    padding-left: 0px;
-}
-
-.list-comment .comment .comment-detail-right {
-    margin-left: 10px;
-}
-
-.form-comment {
-    /*display: none;*/
-}
 
 .action-answer {
     margin: 20px 0px;
@@ -613,6 +599,7 @@ button {
     text-align: center;
 }
 
+
 /*Dinh Sa*/
 
 .margin-top .col {}
@@ -647,43 +634,29 @@ button {
     text-align: justify;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 .style-text {
     font-weight: 500;
 }
+
 .save-edit-profile {
     text-align: center;
     padding: 20px;
 }
+
 .edit-text div {
     position: relative;
     width: 85%;
 }
+
 .about-me {
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .margin-top-edit {
     margin-top: 5%;
 }
+
 .title-edit {
     text-transform: capitalize;
     font-family: "Times New Roman", Times, serif;
@@ -693,36 +666,16 @@ button {
     font-size: 21px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*label {
-    cursor: pointer;
-    color: white;
-    text-transform: capitalize;
-    }*/
 #upload-photo {
     opacity: 0;
     position: absolute;
     z-index: -1;
 }
+
 .imgHolder {
     position: relative;
 }
+
 .imgHolder label {
     position: absolute;
     right: 60px;
@@ -731,6 +684,7 @@ button {
     color: white;
     text-transform: capitalize;
 }
+
 .Hoat-Dong {
     text-transform: capitalize;
     font-family: "Times New Roman", Times, serif;
@@ -739,19 +693,24 @@ button {
     font-size: 21px;
     padding-top: 20px;
 }
+
 .margin-top-hoat-dong {
     margin-top: 4%;
 }
+
 .border_active {
     border-bottom: solid #d8d8d8 1px;
     margin-bottom: 3%;
 }
+
 .user_active {
     padding-bottom: 3%;
 }
+
 .user_active p {
     display: inline;
 }
+
 .user_active .point {
     background: #00A267;
     padding-left: 10px;
@@ -763,6 +722,7 @@ button {
     font-size: 12px;
     color: white;
 }
+
 .user_active .tags {
 
     background: #E0F4FF;
@@ -775,9 +735,11 @@ button {
     font-size: 12px;
     color: black;
 }
+
 .view_more_user {
     padding-bottom: 30px;
 }
+
 .bieu_do {
     padding-top: 2%;
     text-align: center;
@@ -787,12 +749,15 @@ button {
     background: -webkit-linear-gradient(#162850, white, white);
     margin: 20px;
 }
+
 .avatar>.card>.list-group>.list-group-item {
     background-color: #F7F7F7;
 }
+
 .avatar>.card>.card-img-top {
     padding: 5px;
 }
+
 .about-text {
     margin-top: 20px;
     margin-left: -30px;
@@ -805,25 +770,30 @@ button {
     background: black;
     background: -webkit-linear-gradient(#162850, #162850, white);
 }
+
 .about-text>.heder-about div {
     display: inline;
 }
+
 .about-text>.body-about {
     height: 300px;
     background-color: #F3F3F3;
     border-radius: 0px 0px 15px 15px;
 }
+
 .heder-about>.name {
     font-family: "Myriad Pro", Times, serif;
     padding-left: 15px;
     font-size: 20px;
     color: white;
 }
+
 .heder-about>.join {
     padding-right: 15px;
     font-style: oblique;
     color: #d2d2d2;
 }
+
 .body-about>.title-about {
     color: #162850;
     padding-left: 15px;
@@ -832,6 +802,7 @@ button {
     font-size: 20px;
     font-weight: bold;
 }
+
 .body-about>.about {
     font-family: "Myriad Pro", Times, serif;
     font-style: oblique;
@@ -842,33 +813,41 @@ button {
     padding-bottom: 20px;
     font-size: 20px;
 }
+
 .contact-user>div>img {
     height: 30px;
     width: 90px;
     box-shadow: 0px 3px 3px grey;
 }
+
 .contact-user>div {
     display: inline;
 }
+
 .contact-user {
     padding-top: 10px;
     float: right;
 }
+
 .avatar>.card>.card-body {
     text-align: center;
     margin: -20px;
 }
+
 .avatar>.card>.card-body>.point>.oi {
     text-align: center;
     color: #E4E408;
     margin-left: -10px;
 }
+
 .avatar>.card>.list-group>.list-group-item {
     font-size: 13px;
 }
+
 .edit-avatar {
     margin-left: 15px;
 }
+
 .edit-avatar>.edit-body {
     background-color: #F8F8F8;
     width: 300px;
@@ -877,6 +856,7 @@ button {
     margin-left: 20px;
     box-shadow: 0px 3px 3px grey;
 }
+
 .edit-avatar>.edit-body>.edit-title {
 
     background: -webkit-linear-gradient(#162850, #162850, white);
@@ -891,31 +871,38 @@ button {
     box-shadow: 0px 3px 3px grey;
     padding-top: 10px;
 }
+
 .edit-avatar>.edit-body>.photo {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+
 .edit-avatar>.edit-body>.photo img {
     display: block;
     margin: auto;
     width: 50%;
 }
+
 .edit-avatar>.edit-body>.text {
     font-size: 10px;
     text-align: center;
     padding-bottom: 20px;
 }
+
 .edit-avatar>.edit-body>div>button {
     padding-bottom: 10px;
     background: #162850;
 }
+
 .btn-upload {
     padding-bottom: 20px;
     text-align: center;
 }
+
 .edit-avatar>.edit-body>.btn-upload>.button-upload label {
     margin-bottom: -5px;
 }
+
 .edit-info {
     position: relative;
     margin-top: 60px;
@@ -923,6 +910,7 @@ button {
     width: 700px;
     background-color: #F8F8F8;
 }
+
 .edit-info>.head-title {
     background: -webkit-linear-gradient(#162850, #162850, white);
     color: white;
@@ -936,6 +924,7 @@ button {
     box-shadow: 0px 3px 3px grey;
     padding-top: 10px;
 }
+
 .edit-info>.title-info {
     padding-left: 20px;
     padding-top: 50px;
@@ -943,21 +932,26 @@ button {
     font-size: 25px;
     padding-bottom: 15px;
 }
+
 .info>form {
     padding-left: 20px;
     padding-right: 60px;
 }
+
 .info>form div>label {
     font-style: italic;
 }
+
 .info>form div>button {
     background: #162850;
 }
+
 .info>form>div>input {
     border: none;
     border-bottom: 1px solid gray;
     background-color: #F8F8F8;
 }
+
 .edit-info>.title-change-password {
     padding-left: 20px;
     padding-top: 50px;
@@ -965,63 +959,77 @@ button {
     font-size: 25px;
     padding-bottom: 15px;
 }
+
 .change-password>form {
     padding-left: 20px;
     padding-right: 60px;
 }
+
 .change-password>form div label {
     font-style: italic;
 }
+
 .change-password>form div>button {
     background: #162850;
     margin-bottom: 30px;
 }
+
 .change-password>form div>input {
     border: none;
     border-bottom: 1px solid gray;
     background-color: #F8F8F8;
 }
+
 .about-body {
     padding-top: 2px;
 }
+
 .about-body>.title-about>#want-join span {
     display: inline;
     font-size: 20px;
     font-style: italic;
 }
+
 .about-body>.title-about>#want-join {
     text-align: center;
     margin-top: 20px;
 }
+
 .about-body>.title-about span {
     display: block;
     color: #162850;
     text-align: center;
     font-size: 40px;
 }
+
 .about-body>.title-about {
     background-color: white;
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
 .main-about>.row>.col>span {
     display: block;
     text-align: justify;
     padding-bottom: 10px;
 }
+
 .main-about>.row>.first {
     padding-left: 200px;
     padding-right: 40px;
 }
+
 .main-about>.row>.second {
     padding-left: 40px;
     padding-right: 200px;
 }
+
 .main-about>.row>.col>.head {
     color: #162850;
     font-size: 25px;
     padding-top: 70px;
 }
+
 .our-team {
     padding-left: 200px;
     padding-right: 200px;
@@ -1029,6 +1037,7 @@ button {
     margin-top: 50px;
     padding-bottom: 100px;
 }
+
 .our-team>.title-our-team {
     color: #162850;
     padding-top: 50px;
@@ -1036,12 +1045,14 @@ button {
     text-align: center;
     font-size: 25px;
 }
+
 .our-team>.row>.col {
     background-color: #FFFFFF;
     margin: 10px;
     border: 1px solid #E3E3E3;
     position: relative;
 }
+
 .our-team>.row>.col>.image-avt img {
     height: 130px;
     width: 130px;
@@ -1050,15 +1061,18 @@ button {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
 .our-team>.row>.col:hover,
 .col:active {
     background-color: #E3E3E3;
 }
+
 .our-team>.row>.col div {
     text-align: center;
     color: black;
     font-family: "Myriad Pro", Times, serif;
 }
+
 .our-team>.row>.col>#job {
     padding-bottom: 15px;
 }
